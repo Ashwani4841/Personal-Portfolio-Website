@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b0c18c3818.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Portfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4>Hi,I'm</h4>
+                <h1> <span>Ashwani</span> Giri</h1>
+                <p>I'm a professional Frontent Web Developer. Our Main Goal<br> to help & Satisficed the Local & Global Clients<br> by web development solutions.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Ashwani4841" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ashwani-giri-2638381b6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    
+                </div>
+                <a href="images/Ashwani Resume (5).pdf" download class="download-CV2 download-media">Download CV</a>
+            </div>
+            <div class="bg-image3">
+                
+            </div>
+        </div>
+    </div>
+   <!-- <------------about section ------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image-about-page.png" alt="">
+                </div>
+                <div class="about-content">
+                    <h1>About Me</h1>
+                    <p>Hi, I’m Ashwani Giri
+                        I’m an aspiring <strong>MERN stack</strong> developer with a passion for creating dynamic and engaging web applications. I am skilled in working with React.js for frontend development, Node.js and Express.js for backend logic, and MongoDB for database management.               
+                        My journey in web development has been driven by my curiosity to learn and a commitment to building efficient, scalable applications. I thrive in collaborative environments and love tackling challenges with a problem-solving mindset.</p>
+                    
+                    <div class="tabs">
+                        <button class="active" onclick="showTab('skills')">Skills</button>
+                        <button onclick="showTab('education')">Education</button>
+                        <button onclick="showTab('experience')">Experience</button>
+                    </div>
+                    
+                    <div id="skills" class="tab-content">
+                        <h3>Front-ent</h3>
+                        <p><strong>HTML5, CSS3, JAVASCRIPT, REACTJS, Redux/Context API</strong></p>
+                        <p><strong>Tailwind CSS, Bootstrap, SASS/SCSS</strong></p>
+                        <h3>Back-end</h3>
+                        <p><strong>NodeJS, ExpressJS, MySQL/PostgreSQL, Firebase, JWT </strong></p>
+                        <h3>Tools</h3>
+                        <p><strong>VS code, Postman, Vite, Git</strong></p>
+                    </div>
+
+                    <div id="education" class="tab-content" style="display: none;">
+                        
+                        <h3>Bachelor of Computer Application</h3>
+                        <p><strong>VBS Purvanchal University, Jaunpur</strong></p>
+                        <p>August 2018 – May 2021</p>
+                        
+                        <h3>Master of Computer Application</h3>
+                        <p><strong>Chandigarh University, Chandigarh</strong></p>
+                        <p>August 2023 – Persuing</p>
+                        
+                    </div>
+
+                    
+                    <div id="experience" class="tab-content" style="display: none;">
+                        <h4>I am a fresher seeking opportunities to enhance my skills and contribute my knowledge effectively.</h4>
+                    </div>
+                    
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!---------- Services Section ------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="my-services">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-web-awesome"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Portfolio----------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="my-work">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png_300.png">
+                    <div class="layer">
+                        <h3>Movie Search App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt nostrum odit in.</p>
+                        <a href="https://movie-search-app41.netlify.app" target="_black"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png_300.png">
+                    <div class="layer">
+                        <h3>To-Do App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt nostrum odit in.</p>
+                        <a href="https://to-do-app-4841.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png_300.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt nostrum odit in.</p>
+                        <a href="https://weatherapp-41.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------Contact----------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                   <p> <i class="fa-solid fa-paper-plane"></i>ashwanigiri7236@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+917236904841</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Ashwani4841" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ashwani-giri-2638381b6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        
+                    </div>
+                    <a href="images/Ashwani Resume (5).pdf" download class="download-CV btn2">Download CV</a>
+                </div>
+                <div class="contact-right"> 
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Massage" placeholder="Massage" rows="6" required></textarea>
+                        <button type="submit" class="form-btn form-btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Ashwani Giri.</p>
+        </div>
+    </div>
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+
+function openmenu() {
+    sidemenu.style.right = "0";
+}
+
+function closemenu() {
+    sidemenu.style.right = "-200px";
+}
+    </script>
+</body>
+</html>
