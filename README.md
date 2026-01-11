@@ -7,7 +7,7 @@ About Me Section: Highlights my professional journey and technical skills.
 Projects: Displays my work with live demos and source code links.
 Contact Form: Allows visitors to reach out directly.
 Interactive Elements: Includes animations and smooth scrolling for better user experience.
-Tech Stack
+Tech Stack:-
 HTML5: For semantic structure.
 CSS3: For styling and layout, including Flexbox and Grid.
 JavaScript: For interactive functionality.
