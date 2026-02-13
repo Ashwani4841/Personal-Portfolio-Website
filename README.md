@@ -12,7 +12,7 @@ HTML5: For semantic structure.
 CSS3: For styling and layout, including Flexbox and Grid.
 JavaScript: For interactive functionality.
 
-Getting Started
+Getting Started:-
 Live Demo
 Check out the live version of my portfolio: https://ashwanigiri-portfolio.netlify.app
 
