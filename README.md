@@ -24,5 +24,4 @@ Contact
 If you’d like to connect, feel free to reach out!
 
 Email: ashwanigiri7236@gmail.com
-
 LinkedIn:https://www.linkedin.com/in/ashwani-giri-2638381b6/
