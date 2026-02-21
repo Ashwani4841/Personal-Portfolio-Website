@@ -14,7 +14,8 @@ JavaScript: For interactive functionality.
 
 Getting Started:-
 Live Demo
-Check out the live version of my portfolio: https://ashwanigiri-portfolio.netlify.app
+Check out the live version of my portfolio: 
+https://ashwanigiri-portfolio.netlify.app
 
 
 Contributing
