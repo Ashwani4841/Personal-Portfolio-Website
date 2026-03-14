@@ -4,7 +4,7 @@ This is my personal portfolio website, designed to showcase my skills, projects,
 Features8
 Responsive Design: Optimized for desktop and mobile screens.
 About Me Section: Highlights my professional journey and technical skills.
-Projects: Displays my work with live demos and source code links.
+Projects:- Displays my work with live demos and source code links.
 Contact Form: Allows visitors to reach out directly.
 Interactive Elements: Includes animations and smooth scrolling for better user experience.
 Tech Stack:-
